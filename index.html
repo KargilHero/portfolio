@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fira+Code&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js"></script>
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+    
+    <!-- Progress indicator -->
+    <div class="progress-container">
+        <div class="progress-bar"></div>
+    </div>
+    
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+    
+    <!-- Header and Navigation -->
+    <header>
+        <div class="logo">Dev Sharma</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="theme-toggle" aria-label="Toggle dark mode">
+            <i class="fas fa-moon"></i>
+        </button>
+        <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+            <div class="menu-icon"></div>
+        </button>
+    </header>
+    
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="parallax">
+            <div class="parallax-layer" data-depth="0.2"></div>
+            <div class="parallax-layer" data-depth="0.4"></div>
+            <div class="parallax-layer" data-depth="0.6"></div>
+        </div>
+        <div class="hero-content">
+            <h1>Creative Developer & Designer</h1>
+            <p>Building digital experiences that blend creativity with cutting-edge technology. Let's create something amazing together.</p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View My Work <i class="fas fa-arrow-right"></i></a>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
+            </div>
+        </div>
+       
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title fade-in">About Me</h2>
+            <div class="about-content">
+                <div class="about-image slide-in-left">
+                    <img src="/image/Hero.jpg" alt="Developer portrait">
+                </div>
+                <div class="about-text slide-in-right">
+                    <p>Hello! I'm a passionate web developer and designer who loves creating intuitive, responsive, and visually appealing digital experiences.</p>
+                    <p>As a recent learner in web development, I’ve worked on several personal and academic projects that reflect my dedication to clean design and efficient functionality. I'm familiar with modern web technologies and always eager to learn more to improve my skills.</p>
+                    <p>I enjoy combining creative design ideas with practical coding solutions to build websites that are both beautiful and user-friendly. I'm excited to start my professional journey and contribute to real-world projects that make a difference</p>
+                    <a href="#contact" class="btn btn-primary my-4">Let's Connect</a>
+                </div>
+            </div>
+            
+            <!-- Timeline -->
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2021 - Present</span>
+                        <h3 class="timeline-title">Computer Science Degree</h3>
+                        <p>College: Trident Academy of Technology</p>
+                        <p>Pursuing my graduation in Computer Science and Engineering</p>
+                    </div>
+                </div>
+               
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2021</span>
+                        <h3 class="timeline-title">12th</h3>
+                        <p>Passed form CBSE</p>
+                        <p>Stream: Science</p>
+                        <p>Percentage: 75%</p>
+                        <p>School: Kendriya Vidyalaya No.2</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2018</span>
+                        <h3 class="timeline-title">10th</h3>
+                        <p>Passed form CBSE</p>
+                        <p>Percentage: 61%</p>
+                        <p>School: Kendriya Vidyalaya No.2</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title fade-in">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <img src="image/project1.png" alt="Project 2" class="project-img">
+                    <div class="project-content">
+                        <span class="project-category">jhf</span>
+                        <h3 class="project-title">Finance Dashboard</h3>
+                        <p class="project-desc">An intuitive dashboard design for a financial analytics platform with data visualization.</p>
+                        <a href="https://financial-dashboard-jqf9.onrender.com" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card fade-in">
+                    <img src="image/soon.png" alt="Coming Soon" class="project-img">
+                    <div class="project-content">
+                        <span class="project-category">Coming Soon</span>
+                        <h3 class="project-title">Project</h3>
+                        <a href="#" class="project-link disabled" onclick="return false;" style="pointer-events: none; opacity: 0.6;">Launching Soon <i class="fas fa-clock"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <!-- Project Modal -->
+    <div class="modal" id="project-modal">
+        <div class="modal-content">
+            <button class="modal-close">
+                <i class="fas fa-times"></i>
+            </button>
+            <img src="image/project1.png" alt="Project Details" class="modal-img">
+            <div class="modal-body">
+                <div class="modal-header">
+                    <h3 class="modal-title">Project Title</h3>
+                    <p class="modal-subtitle">Web Development</p>
+                </div>
+                <div class="modal-description">
+                    <p>A responsive and interactive dashboard to manage finances efficiently.</p>
+                    <p>It includes tools for tracking income, expenses, and investments, along with visual charts and personalized features for better financial planning.</p>
+                </div>
+                <div class="modal-tech">
+                    <span class="tech-tag">HTML5</span>
+                    <span class="tech-tag">CSS3</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">ExpressJS</span>
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">MySql</span>
+                </div>
+                <a href="#" class="btn btn-primary">View Live <i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+    </div>
+    
+   
+   <!--Section-->
+    <section id="skills" class="skills">
+        <div class="container">
+          <h2 class="section-title fade-in">My Skills</h2>
+          <div class="skills-content">
+            <div class="skills-text slide-in-left">
+              <p>With a focus on web development and design, I've developed a diverse set of skills that allow me to create complete digital solutions from concept to deployment.</p>
+              <p>I'm constantly learning new technologies and techniques to stay at the forefront of the industry and deliver cutting-edge products.</p>
+      
+              <div class="skill-categories">
+                <div class="skill-category active" data-category="frontend">Frontend</div>
+                <div class="skill-category" data-category="backend">Backend</div>
+                <div class="skill-category" data-category="design">Design</div>
+                <div class="skill-category" data-category="tools">Tools</div>
+              </div>
+            </div>
+      
+            <div class="slide-in-right">
+              <div class="skills-cards category-section" id="frontend-skills">
+                <!-- FRONTEND SKILLS -->
+                <div class="skill-card" data-skill="html">
+                  <img src="/image/html.png" alt="HTML5" class="skill-icon">
+                  <span class="skill-name">HTML5</span>
+                  <div class="skill-level">
+                    <div class="skill-level-fill" style="width: 70%;"></div>
+                  </div>
+                </div>
+                <div class="skill-card" data-skill="css">
+                  <img src="/image/css.png" alt="CSS3" class="skill-icon">
+                  <span class="skill-name">CSS3</span>
+                  <div class="skill-level">
+                    <div class="skill-level-fill" style="width: 50%;"></div>
+                  </div>
+                </div>
+                <div class="skill-card" data-skill="javascript">
+                  <img src="/image/js.png" alt="JavaScript" class="skill-icon">
+                  <span class="skill-name">JavaScript</span>
+                  <div class="skill-level">
+                    <div class="skill-level-fill" style="width: 55%;"></div>
+                  </div>
+                </div>
+                <div class="skill-card" data-skill="react">
+                  <img src="/image/react.png" alt="React" class="skill-icon">
+                  <span class="skill-name">React</span>
+                  <div class="skill-level">
+                    <div class="skill-level-fill" style="width: 60%;"></div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="skills-cards category-section hidden" id="backend-skills">
+                <!-- BACKEND SKILLS -->
+                <div class="skill-card" data-skill="node">
+                  <img src="/image/node.png" alt="Node.js" class="skill-icon">
+                  <span class="skill-name">Node.js</span>
+                  <div class="skill-level">
+                    <div class="skill-level-fill" style="width: 40%;"></div>
+                  </div>
+                </div>
+                <div class="skill-card" data-skill="express">
+                  <img src="/image/express.png" alt="Express" class="skill-icon">
+                  <span class="skill-name">Express</span>
+                  <div class="skill-level">
+                    <div class="skill-level-fill" style="width: 45%;"></div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="skills-cards category-section hidden" id="design-skills">
+                <!-- DESIGN SKILLS -->
+                <div class="skill-card" data-skill="figma">
+                  <img src="/image/figma.png" alt="Figma" class="skill-icon">
+                  <span class="skill-name">Figma</span>
+                  <div class="skill-level">
+                    <div class="skill-level-fill" style="width: 60%;"></div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="skills-cards category-section hidden" id="tools-skills">
+                <!-- TOOLS -->
+                <div class="skill-card" data-skill="git">
+                  <img src="/image/git.png" alt="Git" class="skill-icon">
+                  <span class="skill-name">Git</span>
+                  <div class="skill-level">
+                    <div class="skill-level-fill" style="width: 70%;"></div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+  
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title fade-in">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info slide-in-left">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <div class="contact-label">Email</div>
+                            <div class="contact-value">devsharma.flip@gmail.com</div>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <div class="contact-label">Phone</div>
+                            <div class="contact-value">+91 9339760046</div>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <div class="contact-label">Location</div>
+                            <div class="contact-value">West Bengal, India</div>
+                        </div>
+                    </div>
+                   
+                </div>
+                
+                <form class="contact-form slide-in-right" method="POST">
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="name" id="name" placeholder=" " required>
+                      <label for="name" class="form-label">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                      <input type="email" class="form-control" name="email" id="email" placeholder=" " required>
+                      <label for="email" class="form-label">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="subject" id="subject" placeholder=" " required>
+                      <label for="subject" class="form-label">Subject</label>
+                    </div>
+                    <div class="form-group">
+                      <textarea class="form-control" name="message" id="message" placeholder=" " required></textarea>
+                      <label for="message" class="form-label">Your Message</label>
+                    </div>
+                    <button type="submit" class="form-submit">Send Message</button>
+                  </form>
+                  
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Dev Sharma</div>
+            <p class="footer-text">Creating memorable digital experiences with innovative design and cutting-edge technology.</p>
+            <div class="social-links">
+                <a href="https://x.com/devsharmagun" class="social-link"><i class="fab fa-x-twitter"></i></a>
+                <a href="https://github.com/KargilHero" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/dev-sharma-29a71823b/" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p class="copyright">&copy; 2025 Dev Sharma. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <!-- Back to top button -->
+    <button class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    
+    
+    <!-- Easter egg -->
+    <div class="easter-egg easter-egg-1">
+        <i class="fas fa-lightbulb"></i>
+    </div>
+    <div class="easter-egg-content">
+        <button class="easter-egg-close"><i class="fas fa-times"></i></button>
+        <p>You found a secret! Here's a fun fact: HTML is actually a markup language, not a programming language. It structures content, but can’t perform logic or calculations.</p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
